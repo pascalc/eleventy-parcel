@@ -1,0 +1,13 @@
+{
+  "name": "eleventy-parcel",
+  "version": "1.0.0",
+  "scripts": {
+    "generate-html": "npx @11ty/eleventy",
+    "build": "yarn generate-html && yarn parcel build _site/*.html  _site/**/*.html",
+    "serve": "yarn build && npx serve dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0"
+  }
+}
