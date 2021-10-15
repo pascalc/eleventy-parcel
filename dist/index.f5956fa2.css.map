@@ -1,1 +1,0 @@
-{"mappings":"AAEA,UACI,sBCDJ","sources":["css/index.scss","%3Cinput%20css%202GE0Gf%3E"],"sourcesContent":["$background-color: green;\n\nhtml, body {\n    background-color: $background-color;\n}","html, body {\n  background-color: green;\n}\n/*# sourceMappingURL=index.f5956fa2.css.map */\n"],"names":[],"version":3,"file":"index.f5956fa2.css.map"}
