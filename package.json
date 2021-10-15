@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "generate-html": "npx @11ty/eleventy",
-    "build": "yarn generate-html && yarn parcel build --dist-dir docs _site/*.html  _site/**/*.html",
+    "build": "yarn generate-html && yarn parcel build --dist-dir docs --public-url pascalc.github.io/eleventy-parcel _site/*.html  _site/**/*.html",
     "serve": "yarn build && npx serve dist"
   },
   "devDependencies": {
